@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Judul-->
+	<title>Struktur UNEJ</title>
+	
+	<!--Mendeklarasikan css -->
+	<style>
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	li{
+		float: right;
+	}
+	li a{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 18px 20px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color: #7FFF00;
+	}
+	body{
+		background-image: url("B1.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	form {border: 3px solid #f1f1f1;}
+
+	input[type=text], input[type=password] {
+		width: 40%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 0px;
+		opacity: 0.8;
+	}
+	input:hover{
+		opacity: 1;
+	}
+
+	button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 10%;
+		text-align: center;
+		opacity: 0.8;
+	}
+	button:hover {
+		opacity: 1;
+	}
+
+	.kembali {
+		width: auto;
+		padding: 10px 18px;
+		background-color: #f44336;
+	}
+
+	.logounejlogin {
+		text-align: center;
+		margin: 60px 0 12px 0;
+	}
+	.isi {
+		text-align: center;
+		padding: 16px;
+		color: white;
+	}
+
+	span.katasandi {
+		float: center;
+		padding-top: 16px;
+	}
+
+</style>
+</head>
+
+<body>
+	<!--Membuat navigasi-->
+	<div style="background: #ffffff">
+		<nav>
+			<ul>
+				<li style="float: left;"><img src="logo_unej.png" width="50px" height="50px"></li>
+				<li style="float:left;padding: 13px 10px;font-family: Georgia; font-size: 25px">UNEJ</li>
+				<li><a href="#">Masuk</a></li>
+				<li><a href="tentangkami.html">Tentang Kami</a></li>
+				<li><a href="#">Struktur UNEJ</a></li>
+				<li><a href="#">Beranda</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!--Mengatur foto diatas form login-->
+	<div class="logounejlogin">
+		<img style="height: 120px;width: 120px" src="logo_unej.png">
+	</div>
+
+	<!--Mengatur dan membuat form login-->
+	<div class="isi">
+		<p><label for="namaakun">Nama Akun</label></p>
+		<p><input type="text" placeholder="Masukkan Nama Akun" name="namaakun" required></p>
+		<p><label for="katasandi">Kata Sandi</label></p>
+		<p><input type="password" placeholder="Masukkan Kata Sandi" name="katasandi" required></p>
+		<button type="submit">Masuk</button>
+		<p><label>
+			<input type="checkbox" checked="centang" name="ingatsaya"> Ingat saya
+		</label></p>
+	</div>
+
+	<!--Mengatur jika lupa kata sandi-->
+	<div class="isi">
+		<span class="katasandi">Lupa <a href="#" style="color: white">kata sandi?</a></span>
+	</div>
+</body>
+</html>

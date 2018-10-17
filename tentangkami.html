@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!--Judul -->
+	<title>Struktur UNEJ</title>
+
+	<!--Mendeklarasikan css-->
+	<style>
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 100%;
+	}
+	li{
+		float: right;
+	}
+	li a{
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 18px 20px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color: #7FFF00;
+	}
+	body{
+		background-image: url("B1.jpg");
+		background-repeat: no-repeat;
+		
+	}
+	.box{
+		width: 1200px;
+		height: 600px;
+		background: white;
+		margin: 60px;
+		opacity: 0.8;
+		padding-top: 20px;
+	}
+	.box img{
+		padding: 12px 0 0 200px;
+		opacity: 1;
+		width: 200px;
+		height: 200px;
+	}
+	.box table tr td p{
+		text-align: center;
+		font-size: 25px;
+		line-height: 2px; 
+	}
+	.box table tr td li{
+		float: left;
+	}
+	.box table tr td li img{
+		width: 30px;
+		height: 30px;
+	}
+</style>
+</head>
+<body>
+
+	<!--Membuat navigasi bar-->
+	<div style="background: #ffffff">
+		<nav>
+			<ul>
+				<li style="float: left;"><img src="logo_unej.png" width="50px" height="50px"></li>
+				<li style="float:left;padding: 13px 10px;font-family: Georgia; font-size: 25px">UNEJ</li>
+				<li><a href="login.html">Masuk</a></li>
+				<li><a href="tentangkami.html">Tentang Kami</a></li>
+				<li><a href="#">Struktur UNEJ</a></li>
+				<li><a href="beranda.html">Beranda</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!--Membuat halaman tentang kami-->
+	<div class="box" style="padding-top: 20px">
+		<b style="margin: 12px 0 0 12px;font-size: 30px">TENTANG KAMI</b><br>
+
+		<!--Membuat tabel-->
+		<table>
+			<tr>
+				<!--Membuat kolom pertama, berisi informasi pemilik website 1-->
+				<td width="600px">
+					<img src="man.png">
+					<p style="font-size: 20px; line-height: 40px">Developer</b></p>
+					<p style="color: #7FFF00; line-height: 40px"><b>Nazahul Ihza R</b></p>
+					<p style="font-size: 15px">Seorang Mahasiswa Teknologi Informasi</p>
+					<p style="font-size: 15px">Universitas Jember angkatan 2017</p>
+					<ul>
+						<li><img src="facebook.png"></li>
+						<li style="padding: 18px 10px">Nazahaul Ihza R</li>
+					</ul>
+					<ul>
+						<li><img src="instagram.png"></li>
+						<li style="padding: 18px 10px">nazahulihzar</li>
+					</ul>
+				</td>
+
+				<!--Membuat kolom pertama, berisi informasi pemilik website 1-->
+				<td width="600px">
+					<img src="man.png">
+					<p style="font-size: 20px; line-height: 40px">Developer</b></p>
+					<p style="color: #7FFF00; line-height: 40px"><b>Muhammad Ali S</b></p>
+					<p style="font-size: 15px">Seorang Mahasiswa Teknologi Informasi</p>
+					<p style="font-size: 15px">Universitas Jember angkatan 2017</p>
+					<ul>
+						<li><img src="facebook.png"></li>
+						<li style="padding: 18px 10px">Muhammad Ali S.</li>
+					</ul>
+					<ul>
+						<li><img src="instagram.png"></li>
+						<li style="padding: 18px 10px">muhammadali</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
